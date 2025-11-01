@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health for Men</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mental Health for Men</h1>
+        <nav>
+            <button onclick="showSection('home')">Home</button>
+            <button onclick="showSection('courses')">Courses</button>
+            <button onclick="showSection('dashboard')">Dashboard</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="active">
+            <h2>Welcome!</h2>
+            <p>Learn about mental health, coping strategies, and self-care specifically for men.</p>
+
+            <h2>Top Mental Health Practices for Men</h2>
+
+            <div class="practice">
+                <h3>1. Daily Self-Check-In</h3>
+                <p>Take 5 minutes each morning to ask yourself how you feel — physically, mentally, and emotionally. Identify your stressors and focus on what you can control.</p>
+            </div>
+
+            <div class="practice">
+                <h3>2. Physical Activity</h3>
+                <p>Exercise is one of the best ways to boost your mood. Try 30 minutes of walking, cycling, or gym workouts daily.</p>
+            </div>
+
+            <div class="practice">
+                <h3>3. Healthy Sleep Routine</h3>
+                <p>Aim for 7–8 hours of quality sleep. Go to bed and wake up at consistent times.</p>
+            </div>
+
+            <div class="practice">
+                <h3>4. Talk — Don’t Bottle It Up</h3>
+                <p>Open up to someone you trust — a friend, partner, or therapist. Talking reduces loneliness and shame.</p>
+            </div>
+
+            <div class="practice">
+                <h3>5. Practice Mindfulness or Meditation</h3>
+                <p>Use apps like Calm or Headspace. Try deep breathing — inhale 4s, hold 4s, exhale 4s, hold 4s — to calm your mind.</p>
+            </div>
+
+            <div class="practice">
+                <h3>6. Limit Alcohol and Substance Use</h3>
+                <p>Alcohol may feel relaxing, but it’s a depressant. Set limits and find healthy stress relievers instead.</p>
+            </div>
+
+            <div class="practice">
+                <h3>7. Build a Support Network</h3>
+                <p>Stay connected with family and friends. Join a community or group to share and grow together.</p>
+            </div>
+
+            <div class="practice">
+                <h3>8. Seek Professional Help When Needed</h3>
+                <p>Therapy isn’t weakness — it’s strength. Reach out early for help from a counselor or psychologist.</p>
+            </div>
+
+            <div class="practice">
+                <h3>9. Learn to Rest and Recharge</h3>
+                <p>Take breaks, enjoy your hobbies, and unplug from technology sometimes.</p>
+            </div>
+
+            <div class="practice">
+                <h3>10. Gratitude and Positive Reflection</h3>
+                <p>Each evening, note three things you’re grateful for. Gratitude helps shift your mindset toward positivity.</p>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses">
+            <h2>Courses</h2>
+            <div class="course-list">
+                <div class="course" onclick="enrollCourse('Understanding Male Mental Health')">
+                    <h3>Understanding Male Mental Health</h3>
+                    <p>Explore common mental health challenges men face and how to recognize them.</p>
+                </div>
+                <div class="course" onclick="enrollCourse('Stress and Anxiety Management')">
+                    <h3>Stress and Anxiety Management</h3>
+                    <p>Learn practical techniques to manage stress and anxiety effectively.</p>
+                </div>
+                <div class="course" onclick="enrollCourse('Building Emotional Resilience')">
+                    <h3>Building Emotional Resilience</h3>
+                    <p>Develop skills to handle emotional challenges and maintain mental wellness.</p>
+                </div>
+                <div class="course" onclick="enrollCourse('Seeking Help and Support')">
+                    <h3>Seeking Help and Support</h3>
+                    <p>Understand how and where to seek professional help when needed.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Section -->
+        <section id="dashboard">
+            <h2>My Dashboard</h2>
+            <ul id="enrolledCourses"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
