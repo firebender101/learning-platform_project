@@ -1,4 +1,6 @@
 "# learning-platform_project" 
+
+
 🌐 Learning Project - Web Development Practice
 📘 Overview
 
@@ -71,6 +73,5 @@ Or any other static hosting platform
 
 Gideon Kimani
 Passionate about web development, AI tools, and automation.
-📧 [YourEmail@example.com
-]
-🔗 [YourPortfolioLink or GitHub Profile]
+📧 gideonkimani29@gmail.com
+🔗https://github.com/firebender101
