@@ -25,10 +25,6 @@ HTML5 – For page structure
 
 CSS3 – For styling and layout
 
-JavaScript (ES6) – For interactivity
-
-(Optional: Python / Flask / Node.js if you used any backend)
-
 📂 Project Structure
 project-folder/
 │
@@ -36,40 +32,6 @@ project-folder/
 ├── style.css         # Main stylesheet
 ├── script.js         # JavaScript functionality
 └── assets/           # Images, icons, and other media
-
-🧠 Learning Objectives
-
-Build a complete web page using core frontend technologies
-
-Learn responsive design principles
-
-Understand DOM manipulation and basic event handling
-
-Practice clean and organized code structure
-
-💡 Future Improvements
-
-Add user authentication
-
-Connect to a database or API
-
-Improve accessibility and SEO
-
-Deploy the site using GitHub Pages or a cloud service
-
-🌍 Deployment
-
-You can view or deploy the site using:
-
-GitHub Pages
-
-Netlify
-
-Vercel
-
-Or any other static hosting platform
-
-👨‍💻 Author
 
 Gideon Kimani
 Passionate about web development, AI tools, and automation.
